@@ -1,0 +1,12 @@
+# Blender 3.3.1 MTL File: 'kg_mine_deformed_and_rockfall.blend'
+# www.blender.org
+
+newmtl TestMat
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd pngtree-cave-wall-with-paint-complete.png
+map_Ke pngtree-cave-wall-with-paint-complete.png

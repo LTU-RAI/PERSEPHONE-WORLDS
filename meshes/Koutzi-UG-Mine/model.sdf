@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <model name="Koutzi-UG-Mine">
+    <static>true</static>
+    <pose>27 9.5 1.5  0 0 0</pose>    
+    <link name="link">
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>      
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://Koutzi-UG-Mine/meshes/kg_mine_with_mtl_and_vains.obj</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <bounce/>
+          <friction>
+            <torsional>
+              <ode/>
+            </torsional>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://Koutzi-UG-Mine/meshes/kg_mine_with_mtl_and_vains.obj</uri>
+          </mesh>
+        </geometry>
+        <!--material>
+          <ambient>0.4 0.4 0.4 1</ambient>
+          <diffuse>0.8 0.1 0.2 1</diffuse>
+          <specular>0 0.7 0 0</specular>
+          <emissive>0.1 0.1 0.1 1</emissive-->
+          <!--double_sided>true</double_sided-->
+        <!--/material-->
+      </visual>
+    </link>
+  </model>
+</sdf>

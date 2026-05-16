@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <model name="GM-KUM">
+    <static>true</static>
+    <pose>43 12.5 1.5  0 0 0</pose>    
+    <link name="link">
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>      
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://GM-KUM/meshes/ababdoned_mine_mesh3.obj</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <bounce/>
+          <friction>
+            <torsional>
+              <ode/>
+            </torsional>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://GM-KUM/meshes/ababdoned_mine_mesh3.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <double_sided>true</double_sided>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

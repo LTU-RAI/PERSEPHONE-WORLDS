@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <model name="mines">
+    <static>true</static>
+    <!-- <pose>0 0 0 0 0 0</pose> -->
+    <pose>-225 -95 -3 1.5354 0 0</pose>   
+
+    <link name="link">
+      <self_collide>0</self_collide>
+      <enable_wind>0</enable_wind>
+      <kinematic>0</kinematic>      
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://mines/meshes/mines.obj</uri>
+          </mesh>
+        </geometry>
+        <max_contacts>10</max_contacts>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <bounce/>
+          <friction>
+            <torsional>
+              <ode/>
+            </torsional>
+            <ode/>
+          </friction>
+        </surface>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://mines/meshes/mines.obj</uri>
+          </mesh>
+        </geometry>
+        <!--material>
+          <double_sided>true</double_sided>
+        </material-->
+      </visual>
+    </link>
+  </model>
+</sdf>
