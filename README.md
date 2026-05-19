@@ -8,15 +8,27 @@
   Compatible with ROS 2 Humble and Ubuntu 22.04
 </p>
 
----
 
-## Overview
+# Overview
 
-PERSEPHONE-WORLDS is a collection of high-fidelity Gazebo simulation environments developed within the [PERSEPHONE project](https://www.persephone-mining.eu) — a European initiative focused on robotic inspection and monitoring of underground mining infrastructure.
+Developed under the EU Horizon Europe [PERSEPHONE project](https://www.persephone-mining.eu) (Grant No. 101138451).
 
-The repository provides eleven ready-to-launch SDF world files and their corresponding Gazebo model packages, covering realistic underground mine geometries (including hazard variants), a navigation benchmark maze, and indoor logistics environments.
+### PERSEPHONE Simulation Worlds – Open Source Release
 
-> This project has received funding from the European Union's Horizon Europe Research and Innovation Programme under Grant Agreement No. 101138451.
+As part of the PERSEPHONE project, the consortium is committed to supporting open science, reproducibility, and collaborative research in autonomous and sustainable mining technologies. To foster further innovation in underground robotics and digital mining, the PERSEPHONE simulation environments have been released as open-source resources through the project GitHub repository:
+:link: https://github.com/LTU-RAI/PERSEPHONE-WORLDS
+The repository provides realistic simulation worlds representing deep and abandoned underground mine environments, developed using structural and operational insights obtained from industrial mining partners within the project. These environments are intended to support research and development activities related to:
+
+Autonomous navigation in GPS-denied underground environments
+Multi-robot coordination and exploration
+Risk-aware path planning and traversability analysis
+Autonomous drilling and mining operations
+Sensor fusion, localization, and mapping
+Digital twin development and validation
+The simulation worlds have been designed to enable reproducible benchmarking and testing of robotics and AI solutions in realistic subterranean conditions without requiring access to physical mining infrastructure. The environments can be used by researchers, developers, and industrial stakeholders working in mining automation, field robotics, and underground autonomy.
+The PERSEPHONE-WORLDS repository will continue to evolve throughout the project, with additional environments, datasets, and integration examples being progressively released. By making these resources openly accessible, PERSEPHONE aims to encourage collaboration, accelerate innovation, and contribute to the advancement of safe, sustainable, and autonomous mining technologies.
+Acknowledgement
+The PERSEPHONE consortium would like to acknowledge and thank Grecian Magnesite (GM) for providing the underground mine structural data and operational insights that enabled the development of these realistic simulation environments. Their contribution has been essential for creating representative underground scenarios for the validation of autonomous mining technologies.
 
 ## World Environments
 
