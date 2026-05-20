@@ -22,7 +22,11 @@ The repository provides realistic simulation worlds representing deep and abando
 
 The simulation worlds have been designed to enable reproducible benchmarking and testing of robotics and AI solutions in realistic subterranean conditions without requiring access to physical mining infrastructure. The environments can be used by researchers, developers, and industrial stakeholders working in mining automation, field robotics, and underground autonomy.
 The PERSEPHONE-WORLDS repository will continue to evolve throughout the project, with additional environments, datasets, and integration examples being progressively released. By making these resources openly accessible, PERSEPHONE aims to encourage collaboration, accelerate innovation, and contribute to the advancement of safe, sustainable, and autonomous mining technologies.
+
+<img src="assets/Koutzi-UG-Mine-blender.png" alt="PERSEPHONE Koutzi-UG-Mine-blender" width="100%">
+
 ### Acknowledgement
+
 The PERSEPHONE consortium would like to acknowledge and thank Grecian Magnesite (GM) for providing the underground mine structural data and operational insights that enabled the development of these realistic simulation environments. Their contribution has been essential for creating representative underground scenarios for the validation of autonomous mining technologies.
 
 **Keywords:** Autonomous navigation in GPS-denied underground environments · Multi-robot coordination and exploration · Risk-aware path planning and traversability analysis · Autonomous drilling and mining operations · Sensor fusion, localization, and mapping · Digital twin development and validation
